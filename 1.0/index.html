@@ -1,0 +1,17 @@
+<html>
+<head>
+ <title>Javascript++ Compressor</title>
+</head>
+<body>
+ <textarea id="input" rows="30" cols="50" placeholder="Uncompressed Text"></textarea>
+ <textarea id="output" rows="30" cols="50" placeholder="Compressed Text"></textarea>
+ <br><button id="garbage" title="add random characters" onclick="moregarbage();">Add Garbage</button>
+ <button id="convert" title="convert" onclick="comp();">Convert</button>
+ <button id="way" title="conversion direction" onclick="newdir(this);">~~></button>
+ <input id="count" type="number" min="1" max="100" title="garbage per click" value="5" onchange="checkvalue();" onkeyup="checkvalue();"></input>
+ <br><code id="textarea"></code>
+ <script src="javascript++.js"></script>
+ <script src="solutions.js"></script>
+ <script src="code.js"></script>
+</body>
+</html>
